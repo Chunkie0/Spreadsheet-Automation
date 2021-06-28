@@ -37,7 +37,7 @@ for productRow in range(2, productList.max_row + 1):
     inventoryPrice.value = inventory * value
 
 
-inventoryFile.save("new_inventory.xlsx") # saves as a new with changes
+inventoryFile.save("new_inventory.xlsx") # saves as a new file with changes
 
 print(totalValuePerSupplier) 
 print(productsPerSupplier)
